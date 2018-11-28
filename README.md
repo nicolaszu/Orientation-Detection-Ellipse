@@ -2,6 +2,8 @@
 
 Python3 + OpenCV script for detecting orientation inside a tube-like structure. It was originally designed for an endoscopic robot and showed promising results when compared to results from an accelerometer.
 
+[Example Video](www.youtube.com/watch?v=RIF318NsUU8)
+
 Version 2 is currently being developed. 
 
 ## Usage
