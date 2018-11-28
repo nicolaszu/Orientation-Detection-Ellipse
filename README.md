@@ -31,7 +31,7 @@ threshImage = cv2.dilate(threshImage, None, iterations=2)
 #### Step 3: Segment Video Frames:
  
 ```python
-contourArray = cv2.findContours(threshImage.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE) #grouping based on results from threshold image
+contourArray = cv2.findContours(threshImage.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 contourArray = contourArray[0] if imutils.is_cv2() else contourArray[1]
 
 ```
